@@ -19,6 +19,10 @@ export default {
           "url('/assets/destination/background-destination-mobile.jpg')",
         "planet-bg-md":
           "url('/assets/destination/background-destination-tablet.jpg')",
+
+        "crew-bg-lg": "url('/assets/crew/background-crew-desktop.jpg')",
+        "crew-bg-sm": "url('/assets/crew/background-crew-mobile.jpg')",
+        "crew-bg-md": "url('/assets/crew/background-crew-tablet.jpg')",
       },
     },
   },

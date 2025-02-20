@@ -10,7 +10,7 @@ function Explore() {
 
   return (
     <div className="mt-[17rem] lg:mt-[13rem] px-20 pb-20 lg:pb-0 text-white flex flex-col lg:flex-row gap-[8rem] lg:gap-0 items-center">
-      <div className="flex-1 flex flex-col gap-20">
+      <div className="flex-1 flex flex-col gap-20 items-center md:items-start">
         <h1 className="font-barlowCondensed text-[1.3rem] flex gap-5 uppercase tracking-[0.2rem]">
           <span>01</span> Pick your destination
         </h1>
@@ -21,7 +21,7 @@ function Explore() {
       </div>
 
       <div className="flex-1">
-        <div className="flex flex-col gap-8 justify-center px-10 text-center lg:text-start">
+        <div className="flex flex-col gap-8 justify-center  px-10 text-center lg:text-start">
           <div className=" font-barlowCondensed flex gap-5 mx-auto lg:mx-0">
             {planets.map((item, index) => {
               return (
@@ -44,7 +44,7 @@ function Explore() {
 
           <span className="font-barlow text-[#D0D6F9] ">{description}</span>
 
-          <div className="flex justify-between">
+          <div className="flex flex-col md:flex-row gap-10 md:gap-0 justify-between">
             <div className="flex flex-col gap-1 uppercase">
               <span className="font-barlowCondensed text-[#D0D6F9]">
                 avg. distance
