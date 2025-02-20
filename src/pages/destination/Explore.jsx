@@ -9,7 +9,7 @@ function Explore() {
   const { name, images, description, distance, travel } = planets[value];
 
   return (
-    <div className="mt-[17rem] lg:mt-[13rem] px-20 pb-20 lg:pb-0 text-white flex flex-col lg:flex-row gap-[8rem] lg:gap-0 items-center">
+    <div className="mt-[17rem] lg:mt-[13rem] lg:px-20 pb-20 lg:pb-0 text-white flex flex-col lg:flex-row gap-[8rem] lg:gap-0 items-center">
       <div className="flex-1 flex flex-col gap-20 items-center md:items-start">
         <h1 className="font-barlowCondensed text-[1.3rem] flex gap-5 uppercase tracking-[0.2rem]">
           <span>01</span> Pick your destination

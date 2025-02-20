@@ -9,8 +9,8 @@ function Explore() {
   const { name, images, role, bio } = crews[value];
 
   return (
-    <div className="lg:px-20 text-white flex flex-col  lg:flex-row gap-[8rem] lg:gap-0 items-center lh-screen">
-      <div className="flex-1 flex flex-col justify-center gap-10 items-center text-center lg:items-start lg:text-start pt-[12rem] md:pt-[17rem] lg:pt-20">
+    <div className="lg:px-20 text-white flex flex-col  lg:flex-row gap-10 lg:gap-0 items-center lg:h-screen">
+      <div className="flex-1 flex flex-col justify-center gap-10 items-center text-center lg:items-start lg:text-start pt-[12rem] md:pt-[17rem] lg:pt-[8rem]">
         <h1 className="font-barlowCondensed text-[1.3rem] flex gap-5 uppercase tracking-[0.2rem]">
           <span>02</span> meet your crew
         </h1>
@@ -29,7 +29,7 @@ function Explore() {
               <div
                 key={index}
                 onClick={() => setValue(index)}
-                className={`uppercase text-[1.2rem] text-center  ${
+                className={`uppercase text-[1.2rem]  flex items-center justify-center text-center  ${
                   index === value
                     ? "border border-white text-[#D0D6F9] bg-white rounded-full p-1 w-10 h-10 "
                     : "text-white"
@@ -43,7 +43,7 @@ function Explore() {
       </div>
 
       <div className="flex-1 h-full flex items-end">
-        <div className="md:w-[30rem] md:h-[40rem] lg:w-[20rem] lg:h-[29.5rem] flex mx-auto">
+        <div className="md:w-[30rem] md:h-[40rem] bg-re-500 lg:w-[20rem] lg:h-[29.5rem] flex mx-auto">
           <img
             src={images.png}
             alt="crew-iamges"
