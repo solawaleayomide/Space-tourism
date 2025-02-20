@@ -44,7 +44,7 @@ function Explore() {
         </div>
       </div>
 
-      <div className="flex-1 h-full flex items-center justify-center pt-[7rem]">
+      <div className="flex-1 h-full flex items-center justify-center py-[5rem]">
         <div className="lg:h-[25rem]">
           <img
             src={images.portrait}
