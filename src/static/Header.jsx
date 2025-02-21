@@ -62,7 +62,7 @@ function NavLinks({ className, closeMenu }) {
 
   return (
     <ul
-      className={`flex flex-col list-none p-10 font-barlowCondensed text-[0.9rem] ${className}`}
+      className={`flex gap-5 bg-white bg-opacity-20 list-none py-5 pl-16 pr-5 font-barlowCondensed text-[0.9rem] ${className}`}
     >
       <li>
         <NavLink
